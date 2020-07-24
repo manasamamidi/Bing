@@ -1,0 +1,79 @@
+﻿#backgroundImage {
+    margin: 0px !important;
+    background-image: url('../Images/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #666;
+}
+
+.container {
+    min-width: 1115px;
+    max-width: 1366px;
+    width: 100%;
+    min-height: 599px;
+    max-height: 768px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.buttons {
+position: absolute;
+bottom: 0;
+right: 30px;
+margin-bottom: 4% !important;
+}
+
+
+
+.MenuItems li:not(:last-child) {
+    border-right: 1px;
+}
+
+.MenuItems li {
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.level2 {
+    padding: 3px 10px 3px 10px !important;
+    background-color:black;
+    cursor: pointer;
+    width: auto !important;
+}
+
+.level3 {
+    padding: 3px 10px 3px 10px !important;
+    background-color: black;
+    cursor: pointer;
+    top: -43px !important;
+    left: 222px !important;
+    width: auto !important;
+}
+
+.level2 li a {
+    background-color: transparent;
+}
+
+.level3 li a {
+    background-color: transparent;
+}
+
+.MenuItems li a {
+        color: white;
+    }
+
+.menubar{
+    height:30px;
+    width:100%;
+}
